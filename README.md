@@ -1,6 +1,6 @@
 # memory
-```
 free -m
+```
               total       utilisé      libre     partagé tamp/cache   disponible
 Mem:           3857        1656         952          46        1248        1881
 Partition d'échange:        6674        3292        3382
@@ -8,8 +8,10 @@ Partition d'échange:        6674        3292        3382
 top
 
 htop
+```
 
 vmstat  -s
+```
       3949716 K mémoire totale
       1695492 K mémoire utilisée
        985144 K mémoire active
@@ -36,9 +38,10 @@ vmstat  -s
     769079857 changements de contexte CPU
    1613503944 heure d'amorçage
       2467217 clonages
-
+```
 
 cat /proc/meminfo
+```
 MemTotal:        3949716 kB
 MemFree:          975056 kB
 MemAvailable:    1925868 kB
@@ -86,8 +89,10 @@ HugePages_Surp:        0
 Hugepagesize:       2048 kB
 DirectMap4k:     1831928 kB
 DirectMap2M:     2273280 kB
+```
 
 sudo dmidecode -t 17
+```
 # dmidecode 3.1
 Getting SMBIOS data from sysfs.
 SMBIOS 2.4 present.
