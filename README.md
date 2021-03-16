@@ -1,4 +1,6 @@
 # memory
+* https://www.binarytides.com/linux-command-check-memory-usage/
+
 free -m
 ```
               total       utilisé      libre     partagé tamp/cache   disponible
